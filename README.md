@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Sakshi+%F0%9F%91%8B;Data+%C2%B7+ML+%C2%B7+Causal+Inference+%C2%B7+Always+curious.)](https://git.io/typing-svg)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:70a5fd,100:bf91f3&height=200&section=header&text=Hi,%20I'm%20Sakshi!&fontSize=50&fontColor=ffffff&fontAlign=50&fontAlignY=38&desc=Data%20·%20ML%20·%20Causal%20Inference%20·%20Always%20curious&descSize=18&descAlign=50&descAlignY=58&animation=fadeIn)
 
 <br/>
 
@@ -10,68 +10,69 @@
 
 ---
 
-## 👩‍💻 About Me
+## About Me
 
-I'm a data person who likes to go deeper than the surface — building end-to-end pipelines, running controlled experiments, and turning messy, large-scale data into structured insights that actually mean something.
+I'm a data person who likes to go deeper than the surface - building end-to-end pipelines, running controlled experiments, and turning messy, large-scale data into structured insights that actually mean something.
 
 My MSc work took me into causal inference and LLM evaluation, and I've spent time applying ML across NLP, crime analytics, and agricultural systems. I care about clean data, reproducible analysis, and communicating findings clearly to both technical and non-technical audiences.
 
 ---
 
-## 🔬 Projects
+## Projects
 
-### 📄 [Causal Inference for NLP — Hallucinations in LLMs](https://github.com/SakshiHanamshetti/LLM-Hallucination-Prompt-Rephrasing)
-> *MSc Dissertation · University of Warwick · Sep 2025*
+### [London Crime Analysis - Independent Portfolio Project](https://github.com/SakshiHanamshetti/london-crime-analysis)
+> *Feb 2025 · Python · SQL · Power BI · DuckDB · K-Means · Prophet*
 
-Designed and executed an end-to-end controlled experiment to evaluate AI hallucinations in large language models.
+Independently analysed 1.1 million Metropolitan Police crime records (2023-2024), building a full analytical pipeline from raw data to stakeholder-ready dashboards.
 
-- Built an automated Python pipeline for data collection, processing, and evaluation using **Mistral-7B** and **TruthfulQA**
-- Applied **causal inference** (DAG framework) and **McNemar statistical testing** to measure treatment significance
-- Delivered a structured evaluation report with reproducible code and clear recommendations
+- Ingested and combined 12 monthly CSV files, performing end-to-end data cleaning, validation, and structured output generation
+- Wrote 10 SQL queries covering borough-level rankings, monthly trends, rolling 3-month averages, year-on-year change, and window functions (RANK, LAG, SUM OVER)
+- Identified patterns and anomalies across boroughs and crime types, detecting seasonal trends and flagging high-volume, low-resolution areas
+- Defined and tracked key metrics - resolution rates, crime volume per borough, year-on-year change - in a 4-page interactive Power BI dashboard
+- Diagnosed and fixed a systematic forecasting failure in Prophet time series modelling, validated all outputs against real-world logic before reporting
 
-`Python` `Mistral-7B` `Causal Inference` `McNemar` `TruthfulQA`
-
----
-
-### 📊 [Crime Patterns in London — Data Analytics](https://github.com/SakshiHanamshetti/london-crime-analysis)
-> *MSc Data Analytics Project · University of Warwick · Feb 2025*
-
-Cleaned, analysed, and visualised over 1.1 million London crime records to surface ward-level patterns and insights.
-
-- Queried and extracted **17,895 structured records** across 29 fields using **SQL**, mapping data to a standardised analytical schema
-- Built a **4-page interactive Power BI dashboard** and pivot reports in Excel to communicate findings
-- Applied **K-Means clustering** to segment wards by crime type, identifying distinct behavioural patterns
-- Ran a full data quality pipeline — null handling, normalisation, outlier treatment, anomaly checks
-
-`Python` `SQL` `Power BI` `K-Means` `Pandas` `NumPy`
+`Python` `DuckDB` `SQL` `Power BI` `K-Means` `Prophet` `Pandas` `NumPy`
 
 ---
 
-## 🛠️ Technical Skills
+### [Causal Inference for NLP - Hallucinations in LLMs](https://github.com/SakshiHanamshetti/LLM-Hallucination-Prompt-Rephrasing)
+> *MSc Dissertation · University of Warwick · Sep 2025 · Python · Mistral-7B · Causal Inference*
+
+Designed and executed an end-to-end controlled experiment to evaluate and measure hallucination behaviour in large language models.
+
+- Built a full Python pipeline for automated data collection, processing, and reproducible evaluation using Mistral-7B and TruthfulQA
+- Applied causal inference (DAG framework) and McNemar statistical testing to measure effect sizes across all experimental conditions
+- Delivered a structured evaluation report with clear recommendations, accessible to both technical and non-technical readers
+
+`Python` `Mistral-7B` `Causal Inference` `McNemar` `TruthfulQA` `GitHub`
+
+---
+
+## Technical Skills
 
 | Area | Tools |
 |------|-------|
-| **Programming** | Python (Pandas, NumPy, Scikit-learn, Keras, PyTorch), SQL, Advanced Excel |
+| **Programming** | Python (Pandas, NumPy, Scikit-learn, Keras, PyTorch, SciPy), SQL, Advanced Excel |
 | **ML & NLP** | Classification, Clustering, Neural Networks, LSTM, SVM, TF-IDF, GloVe, Causal Inference |
 | **Visualisation** | Power BI, Matplotlib, Seaborn, Tableau |
-| **Statistics** | Experimental Design, Hypothesis Testing, McNemar, Uplift Analysis |
-| **Tools** | GitHub, Jupyter Notebook, Google Colab, Weka |
+| **Statistics** | Experimental Design, Hypothesis Testing, McNemar, A/B Testing, Uplift Analysis |
+| **Tools** | GitHub, Jupyter Notebook, Google Colab, DuckDB, Weka |
 
 ---
 
-## 📈 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
-![Sakshi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SakshiHanamshetti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SakshiHanamshetti&layout=compact&theme=tokyonight&hide_border=true)
+<img src="https://github-readme-stats.vercel.app/api?username=SakshiHanamshetti&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=1a1b27" width="48%"/>
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SakshiHanamshetti&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="40%"/>
 
 </div>
 
 ---
 
-## 🤝 Connect
+## Connect
 
 <div align="center">
 
@@ -80,8 +81,4 @@ Cleaned, analysed, and visualised over 1.1 million London crime records to surfa
 
 </div>
 
----
-
-<div align="center">
-<sub>✨ Always learning · Always building</sub>
-</div>
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:bf91f3,50:70a5fd,100:1a1b27&height=100&section=footer&animation=fadeIn)
